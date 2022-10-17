@@ -1,10 +1,12 @@
-#!/usr/bin/python3
-"""
-Defines amenities
-"""
+#!/usr/bin/python
+""" holds class Amenity"""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Defines amenities that user can choose from to offer at its place"""
+    """Representation of Amenity """
     name = ""
+
+    def __init__(self, *args, **kwargs):
+        """initializes Amenity"""
+        super().__init__(*args, **kwargs)
