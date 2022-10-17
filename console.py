@@ -19,6 +19,7 @@ classes = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
 
 class HBNBCommand(cmd.Cmd):
     """ HBNH console """
+    #task 6
     prompt = '(hbnb) '
 
     def do_EOF(self, arg):
@@ -141,5 +142,6 @@ class HBNBCommand(cmd.Cmd):
         else:
             print("** class doesn't exist **")
 
+#to make your program executable except when imported
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
