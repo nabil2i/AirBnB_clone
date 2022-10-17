@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-Contains the FileStorage class
+Module contains the FileStorage class
+to serialize instances to JSON file
+and deserializes JSON file to instances
 """
 
 import json
