@@ -34,6 +34,9 @@ class HBNBCommand(cmd.Cmd):
         """Quit command to exit the program"""
         return True
 
+    #task 7: create new instance of a model
+    #save the model to a json file
+    #print the id of the model instance
     def do_create(self, arg):
         """Creates a new instance of a class"""
         args = shlex.split(arg)
